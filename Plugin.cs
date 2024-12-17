@@ -45,9 +45,7 @@ internal sealed class Plugin : BaseUnityPlugin
         else
         {
             Logger.LogWarning("Config not found or corrupt, using default values.");
-            Logger.LogWarning(GetEmbeddedPath() + CONFIG_FILENAME);
             string file = ReadTextResource(GetEmbeddedPath() + CONFIG_FILENAME); // Get the default config from the embedded resources
-            Logger.LogInfo(file);
             lines = file.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries); // Split the file into lines
         }
 
