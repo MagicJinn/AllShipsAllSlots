@@ -11,9 +11,16 @@ This mod adds both Forward and AFT weapon slots to every ship in Sunless Sea, wh
 3. The original mod edits Sunless.Game.dll, meaning there are major incompatibilities between updates (Pre/Post 2023 fix) and versions (Steam, Epic, GOG).
 4. The original mod redistributes Sunless.Game.dll, which is proprietary code, and thus illegal.
 
+## Known limitations
+
+- Ships will not advertise their new slots on the shipyard screen
+- Ships will have their Forward and AFT text greyed out on the Hold menu
+
+Fixing these issues would require **extremely invasive** patching, and do not affect gameplay. These will not be fixed.
+
 ## Configuration
 
-Edit `AllShipsAllSlots_config.ini` to customize:
+Edit `AllShipsAllSlots_config.ini` in your Sunless Sea **install** folder to customize:
 
-- `Unlock Forward = true/false` - Enable/disable Forward slots
-- `Unlock AFT = true/false` - Enable/disable AFT slots
+- `Unlock Forward = true/false` - Enable/disable Forward slot
+- `Unlock AFT = true/false` - Enable/disable AFT slot
