@@ -16,8 +16,9 @@ This mod adds both Forward and AFT weapon slots to every ship in Sunless Sea, wh
 
 - Ships will not advertise their new slots on the shipyard screen
 - Ships will have their Forward and AFT text greyed out on the Hold menu
+- Your current ship will not automatically have the new slots. You will have to re-purchase your ship (or trade it in using Ship Storage).
 
-Fixing these issues would require **extremely invasive** patching, and do not affect gameplay. These will not be fixed.
+Fixing these issues would require **extremely invasive** patching. These will not be fixed.
 
 ## Configuration
 
